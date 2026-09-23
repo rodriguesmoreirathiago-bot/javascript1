@@ -1,0 +1,48 @@
+       /* Formatação visual da página */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eef3f8;
+            text-align: center;
+            padding: 30px;
+        }
+
+
+        .caixa {
+            max-width: 600px;
+            margin: auto;
+            padding: 25px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+
+
+        h1 {
+            color: #1d4ed8;
+        }
+
+
+        button {
+            margin: 6px;
+            padding: 10px 16px;
+            border: none;
+            border-radius: 6px;
+            background-color: #1d4ed8;
+            color: white;
+            cursor: pointer;
+        }
+
+
+        button:hover {
+            background-color: #163ea8;
+        }
+
+
+        #resultado {
+            min-height: 24px;
+            margin-top: 20px;
+            padding: 12px;
+            background-color: #e8f0fe;
+            border-radius: 6px;
+        }
+
